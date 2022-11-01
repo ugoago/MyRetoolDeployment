@@ -1,0 +1,57 @@
+id: bccInput
+type: widget
+subtype: TextInputWidget
+template:
+  ordered:
+    - validationMaxlengthValue: ''
+    - readonly: ''
+    - disabledKeyCodes: ''
+    - showNumberCommas: false
+    - validationMaxValue: ''
+    - onBlur: ''
+    - docsSlug: textinput
+    - validatonType: ''
+    - currencyType: USD
+    - leftIconName: mail
+    - initialValue: ''
+    - validationMessage: ''
+    - tooltipText: ''
+    - value: ''
+    - style:
+        ordered: []
+    - suffix: ''
+    - validationMinlengthValue: ''
+    - validationLengthValue: ''
+    - placeholder: BCC'd emails (maybe your email?)
+    - validationType: regexp
+    - label: 'BCC (optional):'
+    - currencyMajorOnly: false
+    - formattedValue: ''
+    - allowedInputsRegex: ''
+    - labelMaxWidth: ''
+    - enableValidationType: false
+    - labelPlacedOnLeft: false
+    - onSubmit: ''
+    - validationMinValue: ''
+    - lastSubmittedAt: ''
+    - validationState:
+        object:
+          required: ''
+          validationType: ''
+    - type: text
+    - allowedRegex: ''
+    - required: ''
+style:
+  ordered: []
+position2:
+  position2:
+    row: 3
+    col: 7
+    height: 2
+    width: 5
+mobilePosition2:
+  position2:
+    row: 14
+    height: 2
+    width: 12
+createdAt: 2018-09-18T00:01:06.012Z

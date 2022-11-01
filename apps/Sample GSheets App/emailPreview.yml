@@ -1,0 +1,62 @@
+id: emailPreview
+type: widget
+subtype: TextInputWidget
+template:
+  ordered:
+    - validationMaxlengthValue: ''
+    - readonly: 'true'
+    - disabledKeyCodes: ''
+    - showNumberCommas: false
+    - validationMaxValue: ''
+    - onBlur: ''
+    - docsSlug: textinput
+    - validatonType: ''
+    - currencyType: USD
+    - leftIconName: search
+    - initialValue: |-
+        Hi founders at {{  companiesTable.selectedRow.data.name }},
+
+        It was great to meet yesterday. {{  personalizedInput.value }}
+
+        Thanks!
+    - validationMessage: ''
+    - tooltipText: ''
+    - value: ''
+    - style:
+        ordered: []
+    - suffix: ''
+    - validationMinlengthValue: ''
+    - validationLengthValue: ''
+    - placeholder: Search here...
+    - validationType: regexp
+    - label: Email preview
+    - currencyMajorOnly: false
+    - formattedValue: ''
+    - allowedInputsRegex: ''
+    - labelMaxWidth: ''
+    - enableValidationType: false
+    - labelPlacedOnLeft: false
+    - onSubmit: ''
+    - validationMinValue: ''
+    - lastSubmittedAt: ''
+    - validationState:
+        object:
+          required: ''
+          validationType: ''
+    - type: text
+    - allowedRegex: ''
+    - required: ''
+style:
+  ordered: []
+position2:
+  position2:
+    row: 8
+    col: 7
+    height: 4
+    width: 5
+mobilePosition2:
+  position2:
+    row: 19
+    height: 4
+    width: 12
+createdAt: 2018-09-18T00:58:49.496Z

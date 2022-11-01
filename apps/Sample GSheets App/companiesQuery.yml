@@ -1,0 +1,89 @@
+id: companiesQuery
+type: datasource
+subtype: GoogleSheetsQuery
+resourceName: Sample GSheets
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - useSheetRange: true
+    - playgroundQuerySaveId: latest
+    - resourceNameOverride: ''
+    - useRawSpreadsheetId: true
+    - runWhenModelUpdates: true
+    - showFailureToaster: true
+    - spreadsheetId: 1jQKcJQRgjBNzr2ZlKHJOGzv7HwSHJZOiYV0wQ9sx2EI
+    - query: ''
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - sheetUpdate: ''
+    - privateParams: []
+    - triggersOnSuccess: []
+    - sheetIdToCopy: ''
+    - sheetName: ''
+    - runWhenPageLoadsDelay: ''
+    - doNotThrowOnDeleteNoOp: false
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - filterBy: ''
+    - metadata: null
+    - actionType: read
+    - triggersOnFailure: []
+    - changesetObject: ''
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - offset: ''
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - bulkUpdateRows: ''
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - useRawCopyToSpreadsheetId: false
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - valueFormatting: formatted
+    - showUpdateSetValueDynamicallyToggle: true
+    - copyToSpreadsheetId: ''
+    - bulkUpdatePrimaryKey: ''
+    - runWhenPageLoads: false
+    - sheetTitle: ''
+    - transformer: >-
+        // type your code here
+
+        // example: return formatDataAsArray(data).filter(row => row.quantity >
+        20)
+
+        return data
+    - events: []
+    - queryTimeout: '10000'
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - limit: ''
+    - enableCaching: false
+    - allowedGroups: []
+    - sheetRange: A3:Z
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2018-09-17T20:07:05.926Z
