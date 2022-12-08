@@ -1,0 +1,26 @@
+id: text3
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: '{{table1.selectedRow.data[i].supplieremail}}'
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: listView2
+    row: 0.4
+    col: 1
+    height: 0.6
+    width: 10
+createdAt: 2022-11-11T17:32:42.516Z

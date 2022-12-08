@@ -1,0 +1,34 @@
+id: listView1
+type: widget
+subtype: ListViewWidget
+template:
+  ordered:
+    - heightType: fixed
+    - showBorder: true
+    - data: ''
+    - showDropShadow: true
+    - rowKeys: '{{table1.selectedRow.index}}'
+    - formDataKey: '{{ self.id }}'
+    - style:
+        ordered:
+          - border-color: ''
+          - primary-surface: ''
+          - accent-foreground: ''
+          - primary-foreground: ''
+          - accent-background: ''
+          - border-radius: ''
+          - secondary-surface: ''
+          - primary-text: ''
+          - primary-background: ''
+    - dynamicHeightsEnabled: false
+    - itemHeight: '0.6'
+    - overflowType: scroll
+    - instances: '{{table1.selectedRow.data.length}}'
+style:
+  ordered: []
+position2:
+  position2:
+    row: 13.600000000000001
+    height: 6.8
+    width: 3
+createdAt: 2022-11-09T19:19:59.818Z

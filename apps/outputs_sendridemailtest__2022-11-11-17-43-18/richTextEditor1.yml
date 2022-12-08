@@ -1,0 +1,16 @@
+id: richTextEditor1
+type: widget
+subtype: TextEditorWidget
+template:
+  ordered:
+    - value: text
+    - onBlur: ''
+style:
+  ordered: []
+position2:
+  position2:
+    container: container3
+    rowGroup: header
+    height: 4.800000000000001
+    width: 12
+createdAt: 2022-11-09T17:08:56.655Z

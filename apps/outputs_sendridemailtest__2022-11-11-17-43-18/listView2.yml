@@ -1,0 +1,24 @@
+id: listView2
+type: widget
+subtype: ListViewWidget
+template:
+  ordered:
+    - heightType: fixed
+    - showBorder: true
+    - data: ''
+    - showDropShadow: true
+    - rowKeys: '{{table1.selectedRow.index}}'
+    - formDataKey: '{{ self.id }}'
+    - dynamicHeightsEnabled: false
+    - itemHeight: '0.6'
+    - overflowType: scroll
+    - instances: '{{table1.selectedRow.data.length}}'
+style:
+  ordered: []
+position2:
+  position2:
+    row: 13.8
+    col: 5
+    height: 3.4
+    width: 4
+createdAt: 2022-11-11T17:32:28.457Z
