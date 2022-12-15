@@ -1,0 +1,57 @@
+id: personalizedInput
+type: widget
+subtype: TextInputWidget
+template:
+  ordered:
+    - validationMaxlengthValue: ''
+    - readonly: ''
+    - disabledKeyCodes: ''
+    - showNumberCommas: false
+    - validationMaxValue: ''
+    - onBlur: ''
+    - docsSlug: textinput
+    - validatonType: ''
+    - currencyType: USD
+    - leftIconName: search
+    - initialValue: ''
+    - validationMessage: ''
+    - tooltipText: ''
+    - value: ''
+    - style:
+        ordered: []
+    - suffix: ''
+    - validationMinlengthValue: ''
+    - validationLengthValue: ''
+    - placeholder: I was excited by the potential your company has!
+    - validationType: regexp
+    - label: Personalized snippet
+    - currencyMajorOnly: false
+    - formattedValue: ''
+    - allowedInputsRegex: ''
+    - labelMaxWidth: ''
+    - enableValidationType: false
+    - labelPlacedOnLeft: false
+    - onSubmit: ''
+    - validationMinValue: ''
+    - lastSubmittedAt: ''
+    - validationState:
+        object:
+          required: ''
+          validationType: ''
+    - type: text
+    - allowedRegex: ''
+    - required: ''
+style:
+  ordered: []
+position2:
+  position2:
+    row: 5
+    col: 7
+    height: 3
+    width: 5
+mobilePosition2:
+  position2:
+    row: 16
+    height: 3
+    width: 12
+createdAt: 2018-09-18T00:03:50.869Z
