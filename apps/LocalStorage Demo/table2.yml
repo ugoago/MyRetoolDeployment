@@ -148,6 +148,7 @@ style:
   ordered: []
 position2:
   position2:
+    row: 0.6
     col: 6
     height: 8
     width: 5
