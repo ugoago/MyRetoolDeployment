@@ -1,0 +1,30 @@
+id: text2
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: '{{table1.selectedRow.data[i].supplieremail}}'
+    - style:
+        ordered:
+          - color: rgb(38, 38, 38)
+          - background: rgba(93, 43, 43, 0)
+          - links: rgba(101, 22, 22, 1)
+    - disableMarkdown: true
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: listView1
+    row: 1.7999999999999998
+    height: 0.6
+    width: 12
+createdAt: 2022-11-09T19:20:13.183Z
