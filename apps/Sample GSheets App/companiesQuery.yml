@@ -7,6 +7,7 @@ template:
     - queryRefreshTime: ''
     - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
+    - servedFromCache: false
     - successMessage: ''
     - queryDisabled: ''
     - useSheetRange: true
@@ -34,7 +35,9 @@ template:
     - showSuccessToaster: true
     - cacheKeyTtl: ''
     - filterBy: ''
+    - requestSentTimestamp: null
     - metadata: null
+    - queryRunTime: null
     - actionType: read
     - triggersOnFailure: []
     - changesetObject: ''
@@ -45,6 +48,7 @@ template:
         // example: return data.find(element => element.isError)
 
         return data.error
+    - finished: null
     - confirmationMessage: null
     - isFetching: false
     - changeset: ''
@@ -83,6 +87,7 @@ template:
     - enableCaching: false
     - allowedGroups: []
     - sheetRange: A3:Z
+    - offlineQueryType: None
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''

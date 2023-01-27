@@ -12,6 +12,7 @@ template:
         companiesTable.selectedRow.data.name }}"}]
     - lastReceivedFromResourceAt: null
     - queryDisabledMessage: Please enter in a personalized snippet!
+    - servedFromCache: false
     - successMessage: ''
     - queryDisabled: '{{ !personalizedInput.value}}'
     - playgroundQuerySaveId: latest
@@ -34,8 +35,10 @@ template:
     - isImported: false
     - showSuccessToaster: true
     - cacheKeyTtl: ''
+    - requestSentTimestamp: null
     - cookies: ''
     - metadata: null
+    - queryRunTime: null
     - triggersOnFailure: []
     - changesetObject: ''
     - errorTransformer: >-
@@ -45,6 +48,7 @@ template:
         // example: return data.find(element => element.isError)
 
         return data.error
+    - finished: null
     - confirmationMessage: null
     - isFetching: false
     - changeset: ''
@@ -77,6 +81,7 @@ template:
     - enableCaching: false
     - allowedGroups: []
     - bodyType: json
+    - offlineQueryType: None
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''

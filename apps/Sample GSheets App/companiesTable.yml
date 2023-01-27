@@ -43,7 +43,9 @@ template:
           - name: ''
           - Sales: orange
           - sales: ''
+          - '0': ''
           - activebool: ''
+          - '1': ''
           - create_date: ''
           - last_update: ''
           - last_name: ''

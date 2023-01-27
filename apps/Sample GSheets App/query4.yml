@@ -1,4 +1,4 @@
-id: filteredCompanies
+id: query4
 type: datasource
 subtype: SqlTransformQuery
 resourceName: SQL Transforms
@@ -14,15 +14,11 @@ template:
     - resourceNameOverride: ''
     - runWhenModelUpdates: true
     - showFailureToaster: true
-    - query: >-
-        select * from {{ companiesQuery.data }} where {{
-        multiselect1.value.length == 0}} or category = ANY ({{
-        multiselect1.value}}) order by category
+    - query: ''
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
     - privateParams: []
-    - triggersOnSuccess: []
     - runWhenPageLoadsDelay: ''
     - data: null
     - importedQueryInputs:
@@ -33,7 +29,6 @@ template:
     - requestSentTimestamp: null
     - metadata: null
     - queryRunTime: null
-    - triggersOnFailure: []
     - changesetObject: ''
     - errorTransformer: >-
         // The variable 'data' allows you to reference the request's data in the
@@ -76,4 +71,4 @@ template:
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2018-09-20T08:08:33.866Z
+createdAt: 2023-01-25T16:05:00.467Z
