@@ -1,8 +1,0 @@
-id: transformer2
-type: function
-subtype: Function
-template:
-  ordered:
-    - funcBody: return 5
-    - value: ''
-createdAt: 2023-01-30T16:32:20.831Z
